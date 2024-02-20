@@ -3,9 +3,11 @@ class Kaffemaskin {
 
     private int maks_vol;
     private int curr_vol;
+    private String navn;
 
-    public Kaffemaskin(int maks_vol) {
+    public Kaffemaskin(int maks_vol, String navn) {
         this.maks_vol = maks_vol;
+	this.navn = navn
         this.curr_vol = 0;
     }
 
